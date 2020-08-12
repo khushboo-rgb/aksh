@@ -26,6 +26,7 @@ public class UserController {
     @GetMapping("/")
     		public String helloController()
     		{
+			logger.info("Dummy method");
     	      return ("<h1>hello Controller</h1>");
     		}
 	
